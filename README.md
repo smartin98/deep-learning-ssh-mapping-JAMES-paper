@@ -3,7 +3,7 @@
 Code used to obtain the results presented in: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
 
 ![alt text](https://github.com/smartin98/
-deep-learning-ssh-mapping-JAMES-paper/blob/main/NN_architecture.pdf?raw=true)
+deep-learning-ssh-mapping-JAMES-paper/blob/main/NN_architecture.png?raw=true)
 
 ## Description
 

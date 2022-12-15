@@ -40,8 +40,8 @@ This repository provides:
 
 ## Authors
 
-Code by [Scott Martin](https://www.ocean.washington.edu/home/Scott_Martin)
-Paper by Scott Martin, Georgy Manucharyan, & Patrice Klein
+* Code by [Scott Martin](https://www.ocean.washington.edu/home/Scott_Martin)
+* Paper by Scott Martin, Georgy Manucharyan, & Patrice Klein
 
 Contact: `smart1n@uw.edu`
 

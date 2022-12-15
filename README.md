@@ -40,26 +40,11 @@ This repository provides:
 
 ## Authors
 
-Code by [@Scott Martin](https://www.ocean.washington.edu/home/Scott_Martin) 
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Code by [Scott Martin](https://www.ocean.washington.edu/home/Scott_Martin)
+Paper by Scott Martin, Georgy Manucharyan, & Patrice Klein
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Contact: `smart1n@uw.edu`
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+The results presented in the paper used data and code from this [ocean data challenge](https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE), we thank the creators and maintainers of this repository for this valuable resource!

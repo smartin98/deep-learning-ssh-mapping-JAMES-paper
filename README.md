@@ -1,47 +1,46 @@
 # Blending Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves Sea Surface Height Mapping
 
-Code used to obtain the results presented in: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems.
+Code used to obtain the results presented in: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
 
 ## Description
 
-In this study we present a novel deep learning method for more accurately mapping sea surface height (SSH) by combining satellite altimetry and sea surface temperature (SST) observations. This repository provides:
+In this study we present a novel deep learning method for more accurately mapping sea surface height (SSH) by combining satellite altimetry and sea surface temperature (SST) observations. 
+
+This repository provides:
 * Code to generate training data from the publicly available satellite altimetry and SST observation datasets following the pre-processing steps described in the manuscript
 * Code to define, train, and make predictions with the deep learning model described in the manuscript
 * Underlying data for the figures presented in the manuscript
-* A Jupyter Notebook for reproducing all the figures in the manuscript
+* A Jupyter Notebook for generating the results figures in the manuscript
 
-## Getting Started
+## Dependencies
 
-### Dependencies
+* All code is in Python (3.9.5)
+* The following packages were used:
+    * NumPy (1.21.6)
+    * SciPy (1.8.0)
+    * TensorFlow (2.6.1)
+    * TensorFlow-Addons (0.14.0)
+    * Xarray (2022.3.0)
+    * Pyproj (3.3.1)
+    * Matplotlib (3.5.2)
+    * Joblib (1.1.0)
+    * Numba (0.55.1)
+    * Cmocean (2.0)
+* Scripts for generating training data assume the user has locally downloaded the publicly available satellite altimetry and SST observations to their local machine.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+## Structure of repo & instructions
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* The `src` folder contains data for the figures and re-used python functions
+* The `figures.ipynb` notebook can be run to generate the figures from the paper using the data stored in this repo
+* The `make_data.py` script is to create training data assuming you have local copies of the satellite observations with the same naming conventions we used:
+    * Level 3 satellite altimetry data downloaded from CMEMS (DOI:10.48670/moi-00146) and stored in a directory with structure: `l3 sla data/satellite_identifier_code/standard_CMEMS_sla_filename.nc`, where the satellite identifier codes are e.g. c2, c2n, j2, etc. as used by CMEMS
+    * Level 4 DUACS SSH data downloaded from CMEMS (DOI:10.48670/moi-00148) with directory structure: `duacs/duacs_YYYY-MM-DD.nc`
+    * Level 4 GHRSST SST data downloaded from NASA PODAAC (DOI:10.5067/GHGMR-4FJ04) with directory structure: `sst high res/standard_PODAAC_SST_filename.nc`
+* The `make_train_predict.py` script defines our ConvLSTM model, trains the model (assuming you have training data generated from `make_data.py`), and makes prediction on validation data
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
+Code by [@Scott Martin](https://www.ocean.washington.edu/home/Scott_Martin) 
 ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History

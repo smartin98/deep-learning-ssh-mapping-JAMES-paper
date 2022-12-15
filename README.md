@@ -2,6 +2,9 @@
 
 Code used to obtain the results presented in: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
 
+![alt text](https://github.com/smartin98/
+deep-learning-ssh-mapping-JAMES-paper/blob/main/NN_architecture.pdf?raw=true)
+
 ## Description
 
 In this study we present a novel deep learning method for more accurately mapping sea surface height (SSH) by combining satellite altimetry and sea surface temperature (SST) observations. 

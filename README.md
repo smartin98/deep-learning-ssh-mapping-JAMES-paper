@@ -49,4 +49,4 @@ Contact: `smart1n@uw.edu`
 
 ## Acknowledgments
 
-The results presented in the paper used data and code from this [ocean data challenge](https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE), we thank the creators and maintainers of this repository for this valuable resource!
+The results presented in the paper used data and code from this [ocean data challenge](https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE), we thank the creators and maintainers of this repository for this valuable resource! We have slightly adapted some of their code for our purposes and reproduced it here to ensure the repo is self contained, files with the form `mod_XXX.py` are adapted from the ocean data challenge repo. 

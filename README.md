@@ -27,6 +27,8 @@ This repository provides:
     * Matplotlib (3.5.2)
     * Joblib (1.1.0)
     * Cmocean (2.0)
+    * Seaborn (0.11.2)
+    * Pandas (1.4.2)
 * Scripts for generating training data assume the user has locally downloaded the publicly available satellite altimetry and SST observations to their local machine.
 
 ## Structure of repo & instructions

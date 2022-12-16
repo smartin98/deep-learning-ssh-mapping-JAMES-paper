@@ -39,7 +39,7 @@ This repository provides:
     * Level 3 satellite altimetry data downloaded from CMEMS (DOI:10.48670/moi-00146) and stored in a directory with structure: `l3 sla data/satellite_identifier_code/standard_CMEMS_sla_filename.nc`, where the satellite identifier codes are e.g. c2, c2n, j2, etc. as used by CMEMS
     * Level 4 DUACS SSH data downloaded from CMEMS (DOI:10.48670/moi-00148) with directory structure: `duacs/duacs_YYYY-MM-DD.nc`
     * Level 4 GHRSST SST data downloaded from NASA PODAAC (DOI:10.5067/GHGMR-4FJ04) with directory structure: `sst high res/standard_PODAAC_SST_filename.nc`
-* The `make_train_predict.py` script defines our ConvLSTM model, trains the model (assuming you have training data generated from `make_data.py`), and makes prediction on validation data
+* The `train_predict.py` script defines our ConvLSTM model, trains the model (assuming you have training data generated from `make_data.py`), and makes prediction on validation data
 
 ## Authors
 

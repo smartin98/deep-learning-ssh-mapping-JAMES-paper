@@ -26,7 +26,6 @@ This repository provides:
     * Pyproj (3.3.1)
     * Matplotlib (3.5.2)
     * Joblib (1.1.0)
-    * Numba (0.55.1)
     * Cmocean (2.0)
 * Scripts for generating training data assume the user has locally downloaded the publicly available satellite altimetry and SST observations to their local machine.
 

@@ -1,4 +1,4 @@
-# Blending Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves Sea Surface Height Mapping
+# Synthesizing Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves the Resolution of Sea Surface Height Mapping
 
 Code used to obtain the results presented in: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
 

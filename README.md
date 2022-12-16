@@ -1,4 +1,4 @@
-# Synthesizing Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves the Resolution of Sea Surface Height Mapping
+# Synthesizing Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves the Accuracy and Resolution of Gridded Sea Surface Height Anomalies
 
 Code associated with the paper: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
 

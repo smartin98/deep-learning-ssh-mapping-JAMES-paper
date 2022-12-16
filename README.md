@@ -13,6 +13,7 @@ This repository provides:
 * Code to define, train, and make predictions with the deep learning model described in the manuscript
 * Underlying data for the figures presented in the manuscript
 * A Jupyter Notebook for generating the results figures in the manuscript
+* `.nc` files containing our new SSH maps for the Gulf Stream Extension region
 
 ## Dependencies
 
@@ -40,6 +41,7 @@ This repository provides:
     * Level 4 DUACS SSH data downloaded from CMEMS (DOI:10.48670/moi-00148) with directory structure: `duacs/duacs_YYYY-MM-DD.nc`
     * Level 4 GHRSST SST data downloaded from NASA PODAAC (DOI:10.5067/GHGMR-4FJ04) with directory structure: `sst high res/standard_PODAAC_SST_filename.nc`
 * The `train_predict.py` script defines our ConvLSTM model, trains the model (assuming you have training data generated from `make_data.py`), and makes prediction on validation data
+* Our method's predicted SSH maps are in the `data challenge maps` directory, the maps for other maps can be found in the [ocean data challenge](https://github.com/ocean-data-challenges/2021a_SSH_mapping_OSE) repo
 
 ## Authors
 

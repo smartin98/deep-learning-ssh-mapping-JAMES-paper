@@ -14,6 +14,7 @@ This repository provides:
 * Underlying data for the figures presented in the manuscript
 * A Jupyter Notebook for generating the results figures in the manuscript
 * `.nc` files containing our new SSH maps for the Gulf Stream Extension region
+* A `.xlsx` file containing the underlying data for Table A1 in the paper
 
 ## Dependencies
 

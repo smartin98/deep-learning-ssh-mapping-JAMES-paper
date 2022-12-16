@@ -1,6 +1,6 @@
 # Synthesizing Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves the Resolution of Sea Surface Height Mapping
 
-Code used to obtain the results presented in: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
+Code associated with the paper: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
 
 ![alt text](https://github.com/smartin98/deep-learning-ssh-mapping-JAMES-paper/blob/main/src/NN_architecture.png?raw=true)
 

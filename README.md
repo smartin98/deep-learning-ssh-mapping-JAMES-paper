@@ -1,6 +1,6 @@
 # Synthesizing Sea Surface Temperature and Satellite Altimetry Observations Using Deep Learning Improves the Accuracy and Resolution of Gridded Sea Surface Height Anomalies
 
-Code associated with the paper: Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted).
+Code associated with the paper: [Martin, S., Manucharyan, G., & Klein, P., 2022, Journal of Advances in Modelling Earth Systems (submitted)](https://doi.org/10.31223/X50Q0N).
 
 ![alt text](https://github.com/smartin98/deep-learning-ssh-mapping-JAMES-paper/blob/main/src/NN_architecture.png?raw=true)
 
